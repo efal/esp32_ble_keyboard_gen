@@ -8,6 +8,9 @@
   # Node version (optional, but recommended)
   environment = { NODE_VERSION = "18" }
 
+# PWA files (manifest.json, sw.js, icons) are automatically 
+# copied from public/ to dist/ during Vite build
+
 # Redirects for Single Page Application (SPA)
 # Ensures all routes are handled by index.html
 [[redirects]]
